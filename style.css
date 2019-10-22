@@ -1,0 +1,57 @@
+html {
+    font-family: verdana;
+}
+/* Social Media buttons */
+.fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%; 
+  }
+  .fa-facebook {
+        background-color: #3B5898;
+        color: #FFFFFF;
+  }
+    .fa-twitter {
+        background-color: #3EA9F1;
+        color: #FFFFFF;
+  }
+  .fa-youtube {
+        background-color: #BB0801;
+        color: #FFFFFF;
+  }
+  .fa:hover {
+        opacity: 0.7;
+  }
+/* Phone number links */
+.phoneButton {
+    text-decoration: none;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #E62027;
+    color: #FFFFFF;
+  }
+  /* horizontal navbar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    width: 70%;
+    text-align: center;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+}
+li {
+    display: inline;
+}
