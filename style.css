@@ -9,6 +9,7 @@ html {
         text-align: center;
         text-decoration: none;
         border-radius: 50%; 
+        height: 100%;
   }
   .fa-facebook {
         background-color: #3B5898;
@@ -29,21 +30,23 @@ html {
 .phoneButton {
     text-decoration: none;
     padding: 10px;
-    width: auto;
+    margin: 3px;
     text-align: center;
     border-radius: 5px;
     background-color: #E62027;
     color: #FFFFFF;
+    
   }
-  /* horizontal navbar */
 
 ul {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 10px;
     background-color: black;
-    width: 70%;
+    width: 100%;
     text-align: center;
+    justify-content: space-around;
     
 }
 a {
@@ -52,6 +55,40 @@ a {
     padding: 10px;
     
 }
-li {
-    display: inline;
+
+header {
+    background-color: #40B1E1;
+    width: 100%;
 }
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+    margin: 5px;
+}
+.center {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    width: 30%;
+}
+.right {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
