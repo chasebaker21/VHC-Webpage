@@ -64,11 +64,12 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
+    background-color: white;
 }
 
 .flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
